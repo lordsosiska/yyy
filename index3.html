@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Qalyn Mal | Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="overlay">
+      <img src="dollar.png" width="200">
+      <a href="#btn" class="header-title"><h1 class="header-title">Qalyn Mal</h1></a>
+      <img src="dollar.png" width="200">
+    </div>
+  </header>
+  <section class="content">
+      <h3 class="title">Education</h3>
+      <p class="text"><span class="education" style="color: red;">Education</span> is the process of facilitating learning, or the acquisition of knowledge, skills, values, morals, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research. Education frequently takes place under the guidance of educators, however learners can also educate themselves. Education can take place in formal or informal settings and any experience that has a formative effect on the way one thinks, feels, or acts may be considered educational. The methodology of teaching is called pedagogy.</p>
+      <fieldset>
+      <select id="education">
+      	<option value="undergrad">Undergraduate degree</option>
+      	<option value="college">College degree</option>
+      	<option value="highschool">High school degree</option>
+      	<option value="middleschool">Middle school degree</option>
+      </select>
+      </fieldset>
+      <h3 class="title">Family net worth</h3>
+      <p class="text"><span class="education" style="color: blue;">Net worth</span> is the value of all the non-financial and financial assets owned by an individual or institution minus the value of all its outstanding liabilities.[1] Since financial assets minus outstanding liabilities equal net financial assets, net worth can also be conveniently expressed as non-financial assets plus net financial assets. It can apply to companies, individuals, governments or economic sectors such as the sector of financial corporations or to entire countries.</p>
+      <fieldset>
+      <select id="family">
+        <option value="veryrich">More than 100,000$</option>
+        <option value="rich">Between 50,000$ and 100,000$</option>
+        <option value="normal">Less than 50,000$</option>
+      </select>
+      </fieldset>
+      <h3 class="title">Skills</h3>
+      <p class="text">A <span class="education" style="color: red;">skill </span> is the learned ability to perform an action with determined results with good execution often within a given amount of time, energy, or both. Skills can often be divided into domain-general and domain-specific skills. For example, in the domain of work, some general skills would include time management, teamwork and leadership, self-motivation and others, whereas domain-specific skills would be used only for a certain job. Skill usually requires certain environmental stimuli and situations to assess the level of skill being shown and used.</p>
+      <fieldset>
+      <form class="text">
+       <p><input type="checkbox" id="dombra">Playing on dombra<Br>
+       <input type="checkbox" id="cook">Good cook<Br>
+       <input type="checkbox" id="character">Easygoing character<Br> 
+       <input type="checkbox" id="sings">Sings well</p>
+      </form>
+      </fieldset>
+      <h3 class="title">Age</h3>
+      <fieldset>
+      <p class="text">Marriageable age (or marriage age) is the general age, as a legal age or as the minimum age subject to parental, religious or other forms of social approval, at which a person is legitimately allowed for marriage. Age and other prerequisites to marriage vary between jurisdictions, but in the vast majority of jurisdictions, the marriage age as a right is set at the age of majority. Nevertheless, most jurisdictions allow marriage at a younger age with parental or judicial approval, and some also allow adolescents to marry if the female is pregnant. The age of marriage is most commonly 18 years old, but there are variations, some higher and some lower. The marriageable age should not be confused with the age of majority or the age of consent, though they may be the same in many places.</p>
+      <form class="text">
+       <p><input type="radio" id="young">Between 18-23<Br>
+       <input type="radio" id="normal">Between 24-27<Br>
+       <input type="radio" id="old">28+<Br> 
+      </form>
+      </fieldset>
+      <h3 class="title">Reputation</h3>
+      <fieldset>
+      <form class="text">
+       <p><input type="checkbox" id="parentgossip">Gossips about his/her parent's attitude<Br>
+       <input type="checkbox" id="charactergossip">Gossips about his/her character<Br> 
+       <input type="checkbox" id="persongossip">General gossips around his/her person</p>
+      </form>
+      </fieldset>
+  </section>
+  <div class="btn" id="btn">
+    <h1 id="res">Result</h1>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
